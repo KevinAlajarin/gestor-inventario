@@ -74,12 +74,14 @@ inventory-management-api/
 
 🔧 Instalación y Ejecución:
 Sigue estos pasos para levantar el entorno de desarrollo localmente.
-1. Base de Datos (SQL Server)Asegúrate de tener una instancia de SQL Server corriendo (Local o Docker). 
-Habilita el protocolo TCP/IP y verifica el puerto (por defecto 1433). 
-Ejecuta el script de inicialización ubicado en backend/scripts/init-database.sql.(Opcional) 
-Ejecuta el script generador de datos para poblar la tabla con 100 productos de prueba.
-2. Configuración del BackendNavega a la carpeta backend, crea un archivo .env basado en el .env.example y configura tus credenciales:Bashcd backend
+1. Base de Datos (SQL Server): Asegúrate de tener una instancia de SQL Server corriendo (Local o Docker).  
+Habilita el protocolo TCP/IP y verifica el puerto (por defecto 1433).  
+Ejecuta el script de inicialización ubicado en backend/scripts/init-database.sql.(Opcional)  
+Ejecuta el script generador de datos para poblar la tabla con 100 productos de prueba. 
+2. Configuración del Backend
+Navega a la carpeta backend, crea un archivo .env basado en el .env.example y configura tus credenciales:
 
+Bashcd backend 
 npm install
 Archivo .env:Ini, TOMLPORT=5000
 NODE_ENV=development
