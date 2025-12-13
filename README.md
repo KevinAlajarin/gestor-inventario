@@ -45,6 +45,9 @@ Una solución robusta y escalable para la administración de inventarios, desarr
 
 ---
 
+<img width="1119" height="703" alt="image" src="https://github.com/user-attachments/assets/dc78d154-c17d-4674-b8db-8d20be20e727" />
+
+
 ## 📂 Estructura del Proyecto
 
 ```text
@@ -86,8 +89,11 @@ DB_PORT=1433
 STOCK_THRESHOLD=10
 
 Ejecuta el servidor:Bashnpm run dev
+Deberías ver: ✅ Conectado a SQL Server en puerto 14333. 
 
-Deberías ver: ✅ Conectado a SQL Server en puerto 14333. Configuración del FrontendNavega a la carpeta frontend:Bashcd frontend
+Configuración del Frontend 
+Navega a la carpeta frontend:
+Bashcd frontend
 npm install
 npm run dev
 ```
