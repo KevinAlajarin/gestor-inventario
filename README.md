@@ -70,6 +70,8 @@ inventory-management-api/
 │   │   ├── services/     # Configuración Axios
 │   │   └── pages/        # Vistas principales
 │   └── index.html        # Entry point
+```
+
 🔧 Instalación y Ejecución:
 Sigue estos pasos para levantar el entorno de desarrollo localmente.
 1. Base de Datos (SQL Server)Asegúrate de tener una instancia de SQL Server corriendo (Local o Docker). 
@@ -96,5 +98,5 @@ Navega a la carpeta frontend:
 Bashcd frontend
 npm install
 npm run dev
-```
+
 👤 Autor Kevin Alajarin 
