@@ -14,11 +14,11 @@ Una solución robusta y escalable para la administración de inventarios, desarr
 Flujo de la API
 
 Client (React)     
-   ↓       
+       ↓       
 REST API (Express)      
-   ↓       
+       ↓       
 SQL Server (Pool de conexiones)       
-   ↓      
+       ↓      
 Power BI (KPIs)      
 
 ---
