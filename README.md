@@ -6,7 +6,20 @@
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019%2F2022-red)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Integrated-yellow)
 
+Objetivo del proyecto
+Diseñar una solución full-stack para la gestión de inventarios con foco en escalabilidad, separación de responsabilidades y análisis operativo mediante BI.
+
 Una solución robusta y escalable para la administración de inventarios, desarrollada con una arquitectura **MVC** en el backend y una interfaz moderna en React. Incluye alertas de stock bajo en tiempo real, paginación, filtros avanzados y un módulo de integración con **Power BI** para Business Intelligence.
+
+Flujo de la API
+
+Client (React)
+   ↓
+REST API (Express)
+   ↓
+SQL Server (Pool de conexiones)
+   ↓
+Power BI (KPIs)
 
 ---
 
@@ -30,6 +43,13 @@ Una solución robusta y escalable para la administración de inventarios, desarr
 - **Dashboard Operativo:** Conexión directa a la base de datos para visualización de KPIs.
 - **Métricas Clave:** Valor total del inventario, distribución por categoría y detección de quiebres de stock.
 
+
+### 📊 Proximas mejoras:
+ - Autenticación y roles (admin / user)
+ - Soft delete
+ - Auditoría de cambios
+ - Deploy en la nube
+ - Tests de integración
 ---
 
 ## 🛠️ Stack Tecnológico
