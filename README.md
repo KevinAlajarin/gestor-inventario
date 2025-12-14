@@ -13,6 +13,7 @@ Una solución robusta y escalable para la administración de inventarios, desarr
 
 Flujo de la API
 
+```mermaid
 Client (React)     
        ↓       
 REST API (Express)      
@@ -20,8 +21,7 @@ REST API (Express)
 SQL Server (Pool de conexiones)       
        ↓      
 Power BI (KPIs)      
-
----
+```
 
 ## 🚀 Características Principales
 
