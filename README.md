@@ -23,9 +23,9 @@ SQL Server (Pool de conexiones)
 Power BI (KPIs)      
 ```
 
-## 🚀 Características Principales
+Características Principales
 
-### ⚙️ Backend (Node.js & Express)
+Backend (Node.js & Express)
 - **Arquitectura MVC:** Separación clara de responsabilidades (Modelos, Controladores, Rutas).
 - **API RESTful:** Endpoints estandarizados con verbos HTTP correctos.
 - **SQL Server Integration:** Uso de `mssql` con **Connection Pooling** para alto rendimiento.
@@ -33,18 +33,18 @@ Power BI (KPIs)
 - **Manejo de Errores Centralizado:** Middleware global para captura y respuesta de excepciones.
 - **Lógica de Negocio:** Alertas automáticas de stock crítico y seeders de datos masivos.
 
-### 💻 Frontend (React & Vite)
+Frontend (React & Vite)
 - **Gestión de Estado:** Implementación de `Context API` para un flujo de datos global y limpio.
 - **Componentización:** UI modular (ProductItem, ProductList, Alerts).
 - **Estilos:** Diseño responsivo y profesional utilizando **Tailwind CSS**.
 - **UX:** Feedback visual al usuario (Alertas, Spinners de carga, Modales).
 
-### 📊 Data Analytics (Power BI)
+Data Analytics (Power BI)
 - **Dashboard Operativo:** Conexión directa a la base de datos para visualización de KPIs.
 - **Métricas Clave:** Valor total del inventario, distribución por categoría y detección de quiebres de stock.
 
 
-### 📊 Proximas mejoras:
+Proximas mejoras:
  - Autenticación y roles (admin / user)
  - Soft delete
  - Auditoría de cambios
@@ -52,7 +52,7 @@ Power BI (KPIs)
  - Tests de integración
 ---
 
-## 🛠️ Stack Tecnológico
+Stack Tecnológico
 
 | Área | Tecnología | Uso |
 |------|------------|-----|
@@ -68,7 +68,7 @@ Power BI (KPIs)
 <img width="1119" height="703" alt="image" src="https://github.com/user-attachments/assets/dc78d154-c17d-4674-b8db-8d20be20e727" />
 
 
-## 📂 Estructura del Proyecto
+Estructura del Proyecto
 
 ```text
 inventory-management-api/
