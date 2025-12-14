@@ -13,7 +13,7 @@ Una solución robusta y escalable para la administración de inventarios, desarr
 
 Flujo de la API
 
-```mermaid
+```text
 Client (React)     
        ↓       
 REST API (Express)      
