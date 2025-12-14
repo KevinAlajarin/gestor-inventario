@@ -104,7 +104,7 @@ Navega a la carpeta backend, crea un archivo .env basado en el .env.example y co
 Bashcd backend 
 npm install
 Archivo .env:  
-Ini, TOMLPORT=5000
+TOMLPORT=5000
 NODE_ENV=development
 DB_USER=sa
 DB_PASSWORD=TuPasswordSeguro
