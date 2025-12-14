@@ -121,5 +121,4 @@ Bashcd frontend
 npm install
 npm run dev
 ```
-
-👤 Autor Kevin Alajarin 
+Desarrollado por Kevin ALajarin - 2025
